@@ -1,0 +1,22 @@
+1. Dataset
+The dataset movie_reviews.csv is provided in the data/ folder. It contains two columns:
+
+review: The text of the movie review.
+sentiment: The sentiment label, either positive or negative.
+
+2. Running the Project
+To run the entire ML pipeline (loading data, training the model, and evaluating), execute the following command:
+
+python main.py
+
+This will:
+
+Load and preprocess the data.
+Train the Logistic Regression model.
+Evaluate the model's performance using accuracy and a confusion matrix.
+
+3. Jupyter Notebooks
+You can also explore the project in a Jupyter notebook. Start the notebook to inspect and preprocess the data:
+
+jupyter notebook notebooks/sentiment_analysis.ipynb
+
